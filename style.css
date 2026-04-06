@@ -8,10 +8,19 @@ body {
     font-family: roboto;
 }
 
+.page {
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 48px;
+}
+
 
 .header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #cecece;
     margin-top: 20px;
@@ -52,8 +61,8 @@ a:hover {
 }
 
 .product-img {
-   width: 400px;
-   height: 400px;
+   width: 340px;
+   height: 340px;
    border: 1.5px solid rgb(198, 198, 198);
    border-radius: 12px;
    object-fit: cover;
@@ -62,6 +71,7 @@ a:hover {
 .product-purchase-section {
     display: flex;
     flex-direction: column;
+    flex-basis: 300px;
     flex-wrap: wrap;
 }
 
@@ -78,7 +88,7 @@ a:hover {
 
 .notebook-title h2 {
     font-size: 26px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .notebook-title p {
@@ -195,6 +205,87 @@ a:hover {
     scale: 90%;
 }
 
+.btn {
+    background-color: white;
+    border: 1px solid #cecece;
+    border-radius: 8px;
+    padding: 10px 6px 10px 6px;
+    margin-bottom: 12px;
+    font-weight: 550;
+    transition: scale .2s, background-color .2s;
+    cursor: pointer;
+}
 
+.btn:active {
+    scale: 98%;
+    background-color: #dadada;
+}
 
+.green-checkmark {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(192, 235, 192);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-benefit-1,
+.product-benefit-2,
+.product-benefit-3 {
+    display: flex;
+    gap: 12px;
+}
+
+.product-benefit-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.pb-text {
+    font-size: 14px;
+}
+
+.abt-section {
+    margin-top: 2rem;
+}
+
+.abt-title {
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.abt-text {
+    font-size: 14px;
+}
+
+.highlight-stats {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 24px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f3ee;
+    padding: 20px 100px 20px 100px;
+    border-radius: 12px;
+}
+
+.stats h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.stats p {
+    font-size: 12px;
+    text-align: center;
+}
 
