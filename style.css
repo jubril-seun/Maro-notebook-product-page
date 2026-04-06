@@ -1,10 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    box-sizing: border-box;
     font-family: roboto;
 }
 
@@ -29,8 +29,7 @@ body {
     gap: 20px;
 }
 
-.maro-logo
-a {
+.maro-logo a {
     font-weight: 500;
     color: black;
 }
